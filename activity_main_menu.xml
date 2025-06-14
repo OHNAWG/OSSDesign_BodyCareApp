@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="24dp">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal">
+
+        <TextView
+            android:text="메인 메뉴"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            android:layout_marginBottom="32dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <Button
+            android:id="@+id/btnCreateRoutine"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="운동 루틴 만들기"
+            android:layout_marginBottom="16dp" />
+
+        <Button
+            android:id="@+id/btnShareRoutine"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="운동 루틴 공유하기"
+            android:layout_marginBottom="16dp" />
+
+        <Button
+            android:id="@+id/btnManageDiet"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="식단 관리"
+            android:layout_marginBottom="16dp" />
+
+        <Button
+            android:id="@+id/btnViewHistory"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="운동 기록 보기"
+            android:layout_marginBottom="16dp" />
+
+        <Button
+            android:id="@+id/btnAdmin"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="관리자 기능"
+            android:layout_marginBottom="16dp" />
+
+    </LinearLayout>
+</ScrollView>
